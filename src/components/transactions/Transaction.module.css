@@ -1,0 +1,45 @@
+.transactionHistory{
+    width: 80%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+}
+.transactionBody{
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+    border-left:1px rgb(132, 132, 132) solid ;
+    border-right:1px rgb(132, 132, 132) solid ;
+    border-bottom:1px rgb(132, 132, 132) solid ;
+
+}
+.transactionTypes:first-child{
+    border-top-left-radius:5px;
+}
+.transactionTypes:last-child{
+    border-top-right-radius:5px;
+}
+.transactionTypes{
+    background-color: rgb(64, 154, 193);
+    color:#fff;
+    font-size: 28px;
+    padding:15px 20px;
+    text-transform: uppercase;
+}
+.transactionData{
+    text-align: center;
+    font-size: 26px;
+    color:rgb(132, 132, 132);
+}
+.transactionValue{
+    padding: 15px 0;
+    text-transform: capitalize;
+}
+.transactionValue:not(:last-child){
+    border-right: 1px rgb(132, 132, 132) solid;
+}
+.transactionData:nth-child(2n){
+    background-color: rgb(218, 217, 217);
+}
+.transactionData:last-child{
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
+}
