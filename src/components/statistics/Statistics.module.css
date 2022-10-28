@@ -1,0 +1,18 @@
+.statistics{
+    border-radius:5px;
+}
+.statList{
+    list-style: none;
+    display: flex;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    min-width: 112px;
+    background-color: rgb(113, 176, 214);
+}
+.label{
+    margin-bottom: 20px;
+}
